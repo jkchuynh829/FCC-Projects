@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pomodoro Clocks</title>
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+	<audio src="http://www.freesound.org/people/Snapper4298/sounds/179198/download/179198__snapper4298__micro-bell.wav" type=audio/wav id="buzzer">
+		Your browswer does not support the audio element.
+	</audio>
+	<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
+	<script src="script.js"></script>
+</head>
+<body>
+	<div class="cuttingBoard">
+		<div class="tomato">
+			<div id="time">25:00</div>
+			<div class="settings">
+				<div class="sessionSet">
+					<div id="sessionTitle">session</div>
+					<div id="sessionMin">-</div>
+					<div id="session">25</div>
+					<div id="sessionAdd">+</div>
+				</div>
+				<div class="breakSet">
+					<div id="breakTitle">break</div>
+					<div id="breakMin">-</div>
+					<div id="break">5</div>
+					<div id="breakAdd">+</div>
+				</div>
+			</div>
+			<div id="start">START</div>
+			<div class="title">pomodoro</div>
+		</div>
+	</div>
+</body>
+</html>
