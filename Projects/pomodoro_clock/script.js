@@ -41,8 +41,8 @@ $(function() {
                     clearInterval(breakClock);
                     buzzer.play();
                     $(".tomato").effect("shake");
-                    $("#time").html(sessionCount / 60 + ":" + session % 60);
                     time = sessionCount;
+                    $("#time").html(sessionCount / 60 + ":0" + sessionCount % 60);
                     $(".settings").css("visibility", "initial");
                     $("#start").css("visibility", "initial");
                     $(".title").html("pomodoro");
